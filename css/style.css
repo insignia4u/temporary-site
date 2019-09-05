@@ -11,7 +11,7 @@ body{
 }
 
 .hero{
-	height: 100vh;
+	min-height: 100vh;
 	background: url('../images/bg.jpg?v2');
 	background-size: cover;
 	background-position: left center;
@@ -19,12 +19,13 @@ body{
 
 .content{
 	background: rgba(64, 0, 19, 0.5);
-	height: 100%;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	color: #fff;
+	padding: 1%;
 }
 
 .content h1{
